@@ -1,0 +1,611 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4A4626D31CF47F7B004A2B13 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4626D21CF47F7B004A2B13 /* CalendarViewController.swift */; };
+		4AEB93C81D01338300EBF254 /* Calendar.html in Resources */ = {isa = PBXBuildFile; fileRef = 4AEB93C71D01338300EBF254 /* Calendar.html */; };
+		4AEB93CD1D01392C00EBF254 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AEB93CB1D01392C00EBF254 /* Main.storyboard */; };
+		4AF768611CDD88C3007AFB24 /* Scedule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF768601CDD88C3007AFB24 /* Scedule.swift */; };
+		4AF768651CDD8B3A007AFB24 /* CalcPeriod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF768641CDD8B3A007AFB24 /* CalcPeriod.swift */; };
+		4AF768671CDD96E1007AFB24 /* SceduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF768661CDD96E1007AFB24 /* SceduleViewController.swift */; };
+		4C2EBDF01CBF334700E076FC /* EngineeringViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EBDEF1CBF334700E076FC /* EngineeringViewController.swift */; };
+		4C2EBDF21CC0795700E076FC /* ScienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EBDF11CC0795700E076FC /* ScienceViewController.swift */; };
+		4C2EBDF41CC3320700E076FC /* TheArtsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EBDF31CC3320700E076FC /* TheArtsViewController.swift */; };
+		4C2EBDF61CC3426200E076FC /* ComputerScienceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2EBDF51CC3426200E076FC /* ComputerScienceViewController.swift */; };
+		4CA415A11C84F0D90006C790 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA415A01C84F0D90006C790 /* AppDelegate.swift */; };
+		4CA415A31C84F0D90006C790 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA415A21C84F0D90006C790 /* HomeViewController.swift */; };
+		4CA415A51C84F0D90006C790 /* FacultyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA415A41C84F0D90006C790 /* FacultyViewController.swift */; };
+		4CA415AA1C84F0D90006C790 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4CA415A91C84F0D90006C790 /* Assets.xcassets */; };
+		4CA415AD1C84F0D90006C790 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4CA415AB1C84F0D90006C790 /* LaunchScreen.storyboard */; };
+		4CA415B81C84F0D90006C790 /* TZ_First_Mate4Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA415B71C84F0D90006C790 /* TZ_First_Mate4Tests.swift */; };
+		4CA415C31C84F0DA0006C790 /* TZ_First_Mate4UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA415C21C84F0DA0006C790 /* TZ_First_Mate4UITests.swift */; };
+		4CA415D11C85145C0006C790 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4CA415D01C85145C0006C790 /* MessageUI.framework */; };
+		4CA415D31C85FC130006C790 /* MathViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CA415D21C85FC130006C790 /* MathViewController.swift */; };
+		4CE807C01C979D2D007997CD /* EnglishViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CE807BF1C979D2D007997CD /* EnglishViewController.swift */; };
+		4CF7ADD21CA5F6C00029AAD1 /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CF7ADD11CA5F6C00029AAD1 /* HistoryViewController.swift */; };
+		4CFB56441CBCA27900361D39 /* ForeignLanguageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4CFB56431CBCA27900361D39 /* ForeignLanguageViewController.swift */; };
+		C3F2F8DE1CEBCC3200C8554C /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C3F2F8DD1CEBCC3200C8554C /* MapViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4CA415B41C84F0D90006C790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA415951C84F0D90006C790 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CA4159C1C84F0D90006C790;
+			remoteInfo = "TZ First Mate4";
+		};
+		4CA415BF1C84F0DA0006C790 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4CA415951C84F0D90006C790 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4CA4159C1C84F0D90006C790;
+			remoteInfo = "TZ First Mate4";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4A4626D21CF47F7B004A2B13 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
+		4AEB93C71D01338300EBF254 /* Calendar.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Calendar.html; sourceTree = "<group>"; };
+		4AEB93CC1D01392C00EBF254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4AF768601CDD88C3007AFB24 /* Scedule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scedule.swift; sourceTree = "<group>"; };
+		4AF768641CDD8B3A007AFB24 /* CalcPeriod.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalcPeriod.swift; sourceTree = "<group>"; };
+		4AF768661CDD96E1007AFB24 /* SceduleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceduleViewController.swift; sourceTree = "<group>"; };
+		4C2EBDEF1CBF334700E076FC /* EngineeringViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EngineeringViewController.swift; sourceTree = "<group>"; };
+		4C2EBDF11CC0795700E076FC /* ScienceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScienceViewController.swift; sourceTree = "<group>"; };
+		4C2EBDF31CC3320700E076FC /* TheArtsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TheArtsViewController.swift; sourceTree = "<group>"; };
+		4C2EBDF51CC3426200E076FC /* ComputerScienceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ComputerScienceViewController.swift; sourceTree = "<group>"; };
+		4CA4159D1C84F0D90006C790 /* TZ First Mate4.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "TZ First Mate4.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA415A01C84F0D90006C790 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4CA415A21C84F0D90006C790 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		4CA415A41C84F0D90006C790 /* FacultyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacultyViewController.swift; sourceTree = "<group>"; };
+		4CA415A91C84F0D90006C790 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4CA415AC1C84F0D90006C790 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4CA415AE1C84F0D90006C790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CA415B31C84F0D90006C790 /* TZ First Mate4Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TZ First Mate4Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA415B71C84F0D90006C790 /* TZ_First_Mate4Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TZ_First_Mate4Tests.swift; sourceTree = "<group>"; };
+		4CA415B91C84F0D90006C790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CA415BE1C84F0DA0006C790 /* TZ First Mate4UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "TZ First Mate4UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4CA415C21C84F0DA0006C790 /* TZ_First_Mate4UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TZ_First_Mate4UITests.swift; sourceTree = "<group>"; };
+		4CA415C41C84F0DA0006C790 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4CA415D01C85145C0006C790 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		4CA415D21C85FC130006C790 /* MathViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MathViewController.swift; sourceTree = "<group>"; };
+		4CE807BF1C979D2D007997CD /* EnglishViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnglishViewController.swift; sourceTree = "<group>"; };
+		4CF7ADD11CA5F6C00029AAD1 /* HistoryViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
+		4CFB56431CBCA27900361D39 /* ForeignLanguageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ForeignLanguageViewController.swift; sourceTree = "<group>"; };
+		C3F2F8DD1CEBCC3200C8554C /* MapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4CA4159A1C84F0D90006C790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA415D11C85145C0006C790 /* MessageUI.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA415B01C84F0D90006C790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA415BB1C84F0DA0006C790 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4AEB93C91D01388B00EBF254 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				4AEB93C71D01338300EBF254 /* Calendar.html */,
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
+		4AF768621CDD8A51007AFB24 /* Faculty */ = {
+			isa = PBXGroup;
+			children = (
+				4CFB56431CBCA27900361D39 /* ForeignLanguageViewController.swift */,
+				4CA415A41C84F0D90006C790 /* FacultyViewController.swift */,
+				4CF7ADD11CA5F6C00029AAD1 /* HistoryViewController.swift */,
+				4CA415D21C85FC130006C790 /* MathViewController.swift */,
+				4CE807BF1C979D2D007997CD /* EnglishViewController.swift */,
+				4C2EBDEF1CBF334700E076FC /* EngineeringViewController.swift */,
+				4C2EBDF11CC0795700E076FC /* ScienceViewController.swift */,
+				4C2EBDF31CC3320700E076FC /* TheArtsViewController.swift */,
+				4C2EBDF51CC3426200E076FC /* ComputerScienceViewController.swift */,
+			);
+			name = Faculty;
+			sourceTree = "<group>";
+		};
+		4AF768631CDD8A8F007AFB24 /* Scedule */ = {
+			isa = PBXGroup;
+			children = (
+				4AF768601CDD88C3007AFB24 /* Scedule.swift */,
+				4AF768641CDD8B3A007AFB24 /* CalcPeriod.swift */,
+			);
+			name = Scedule;
+			sourceTree = "<group>";
+		};
+		4CA415941C84F0D90006C790 = {
+			isa = PBXGroup;
+			children = (
+				4CA415D01C85145C0006C790 /* MessageUI.framework */,
+				4CA4159F1C84F0D90006C790 /* TZ First Mate4 */,
+				4CA415B61C84F0D90006C790 /* TZ First Mate4Tests */,
+				4CA415C11C84F0DA0006C790 /* TZ First Mate4UITests */,
+				4CA4159E1C84F0D90006C790 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4CA4159E1C84F0D90006C790 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4CA4159D1C84F0D90006C790 /* TZ First Mate4.app */,
+				4CA415B31C84F0D90006C790 /* TZ First Mate4Tests.xctest */,
+				4CA415BE1C84F0DA0006C790 /* TZ First Mate4UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4CA4159F1C84F0D90006C790 /* TZ First Mate4 */ = {
+			isa = PBXGroup;
+			children = (
+				C3F2F8DA1CEBC70400C8554C /* ViewControllers */,
+				4AEB93C91D01388B00EBF254 /* Calendar */,
+				4AF768631CDD8A8F007AFB24 /* Scedule */,
+				4AF768621CDD8A51007AFB24 /* Faculty */,
+				4CA415A01C84F0D90006C790 /* AppDelegate.swift */,
+				4AEB93CB1D01392C00EBF254 /* Main.storyboard */,
+				4CA415A91C84F0D90006C790 /* Assets.xcassets */,
+				4CA415AB1C84F0D90006C790 /* LaunchScreen.storyboard */,
+				4CA415AE1C84F0D90006C790 /* Info.plist */,
+			);
+			path = "TZ First Mate4";
+			sourceTree = "<group>";
+		};
+		4CA415B61C84F0D90006C790 /* TZ First Mate4Tests */ = {
+			isa = PBXGroup;
+			children = (
+				4CA415B71C84F0D90006C790 /* TZ_First_Mate4Tests.swift */,
+				4CA415B91C84F0D90006C790 /* Info.plist */,
+			);
+			path = "TZ First Mate4Tests";
+			sourceTree = "<group>";
+		};
+		4CA415C11C84F0DA0006C790 /* TZ First Mate4UITests */ = {
+			isa = PBXGroup;
+			children = (
+				4CA415C21C84F0DA0006C790 /* TZ_First_Mate4UITests.swift */,
+				4CA415C41C84F0DA0006C790 /* Info.plist */,
+			);
+			path = "TZ First Mate4UITests";
+			sourceTree = "<group>";
+		};
+		C3F2F8DA1CEBC70400C8554C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				4CA415A21C84F0D90006C790 /* HomeViewController.swift */,
+				C3F2F8DD1CEBCC3200C8554C /* MapViewController.swift */,
+				4A4626D21CF47F7B004A2B13 /* CalendarViewController.swift */,
+				4AF768661CDD96E1007AFB24 /* SceduleViewController.swift */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4CA4159C1C84F0D90006C790 /* TZ First Mate4 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CA415C71C84F0DA0006C790 /* Build configuration list for PBXNativeTarget "TZ First Mate4" */;
+			buildPhases = (
+				4CA415991C84F0D90006C790 /* Sources */,
+				4CA4159A1C84F0D90006C790 /* Frameworks */,
+				4CA4159B1C84F0D90006C790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "TZ First Mate4";
+			productName = "TZ First Mate4";
+			productReference = 4CA4159D1C84F0D90006C790 /* TZ First Mate4.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4CA415B21C84F0D90006C790 /* TZ First Mate4Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CA415CA1C84F0DA0006C790 /* Build configuration list for PBXNativeTarget "TZ First Mate4Tests" */;
+			buildPhases = (
+				4CA415AF1C84F0D90006C790 /* Sources */,
+				4CA415B01C84F0D90006C790 /* Frameworks */,
+				4CA415B11C84F0D90006C790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CA415B51C84F0D90006C790 /* PBXTargetDependency */,
+			);
+			name = "TZ First Mate4Tests";
+			productName = "TZ First Mate4Tests";
+			productReference = 4CA415B31C84F0D90006C790 /* TZ First Mate4Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4CA415BD1C84F0DA0006C790 /* TZ First Mate4UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4CA415CD1C84F0DA0006C790 /* Build configuration list for PBXNativeTarget "TZ First Mate4UITests" */;
+			buildPhases = (
+				4CA415BA1C84F0DA0006C790 /* Sources */,
+				4CA415BB1C84F0DA0006C790 /* Frameworks */,
+				4CA415BC1C84F0DA0006C790 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4CA415C01C84F0DA0006C790 /* PBXTargetDependency */,
+			);
+			name = "TZ First Mate4UITests";
+			productName = "TZ First Mate4UITests";
+			productReference = 4CA415BE1C84F0DA0006C790 /* TZ First Mate4UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4CA415951C84F0D90006C790 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "Michael Morales";
+				TargetAttributes = {
+					4CA4159C1C84F0D90006C790 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = V8ZM283FSK;
+					};
+					4CA415B21C84F0D90006C790 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4CA4159C1C84F0D90006C790;
+					};
+					4CA415BD1C84F0DA0006C790 = {
+						CreatedOnToolsVersion = 7.2.1;
+						TestTargetID = 4CA4159C1C84F0D90006C790;
+					};
+				};
+			};
+			buildConfigurationList = 4CA415981C84F0D90006C790 /* Build configuration list for PBXProject "TZ First Mate4" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4CA415941C84F0D90006C790;
+			productRefGroup = 4CA4159E1C84F0D90006C790 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4CA4159C1C84F0D90006C790 /* TZ First Mate4 */,
+				4CA415B21C84F0D90006C790 /* TZ First Mate4Tests */,
+				4CA415BD1C84F0DA0006C790 /* TZ First Mate4UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4CA4159B1C84F0D90006C790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA415AD1C84F0D90006C790 /* LaunchScreen.storyboard in Resources */,
+				4AEB93CD1D01392C00EBF254 /* Main.storyboard in Resources */,
+				4CA415AA1C84F0D90006C790 /* Assets.xcassets in Resources */,
+				4AEB93C81D01338300EBF254 /* Calendar.html in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA415B11C84F0D90006C790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA415BC1C84F0DA0006C790 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4CA415991C84F0D90006C790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A4626D31CF47F7B004A2B13 /* CalendarViewController.swift in Sources */,
+				4CF7ADD21CA5F6C00029AAD1 /* HistoryViewController.swift in Sources */,
+				4CA415A51C84F0D90006C790 /* FacultyViewController.swift in Sources */,
+				4CA415A11C84F0D90006C790 /* AppDelegate.swift in Sources */,
+				4CA415D31C85FC130006C790 /* MathViewController.swift in Sources */,
+				4AF768671CDD96E1007AFB24 /* SceduleViewController.swift in Sources */,
+				4C2EBDF01CBF334700E076FC /* EngineeringViewController.swift in Sources */,
+				4AF768651CDD8B3A007AFB24 /* CalcPeriod.swift in Sources */,
+				4C2EBDF61CC3426200E076FC /* ComputerScienceViewController.swift in Sources */,
+				4CA415A31C84F0D90006C790 /* HomeViewController.swift in Sources */,
+				4CE807C01C979D2D007997CD /* EnglishViewController.swift in Sources */,
+				4C2EBDF21CC0795700E076FC /* ScienceViewController.swift in Sources */,
+				4AF768611CDD88C3007AFB24 /* Scedule.swift in Sources */,
+				4C2EBDF41CC3320700E076FC /* TheArtsViewController.swift in Sources */,
+				C3F2F8DE1CEBCC3200C8554C /* MapViewController.swift in Sources */,
+				4CFB56441CBCA27900361D39 /* ForeignLanguageViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA415AF1C84F0D90006C790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA415B81C84F0D90006C790 /* TZ_First_Mate4Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4CA415BA1C84F0DA0006C790 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4CA415C31C84F0DA0006C790 /* TZ_First_Mate4UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4CA415B51C84F0D90006C790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CA4159C1C84F0D90006C790 /* TZ First Mate4 */;
+			targetProxy = 4CA415B41C84F0D90006C790 /* PBXContainerItemProxy */;
+		};
+		4CA415C01C84F0DA0006C790 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4CA4159C1C84F0D90006C790 /* TZ First Mate4 */;
+			targetProxy = 4CA415BF1C84F0DA0006C790 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4AEB93CB1D01392C00EBF254 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4AEB93CC1D01392C00EBF254 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4CA415AB1C84F0D90006C790 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4CA415AC1C84F0D90006C790 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4CA415C51C84F0DA0006C790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4CA415C61C84F0DA0006C790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4CA415C81C84F0DA0006C790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "TZ First Mate4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.socsd.FirstMate.jake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		4CA415C91C84F0DA0006C790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "TZ First Mate4/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = org.socsd.FirstMate.jake;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		4CA415CB1C84F0DA0006C790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TZ First Mate4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SOCSD.TZ-First-Mate4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TZ First Mate4.app/TZ First Mate4";
+			};
+			name = Debug;
+		};
+		4CA415CC1C84F0DA0006C790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "TZ First Mate4Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SOCSD.TZ-First-Mate4Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TZ First Mate4.app/TZ First Mate4";
+			};
+			name = Release;
+		};
+		4CA415CE1C84F0DA0006C790 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TZ First Mate4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SOCSD.TZ-First-Mate4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TZ First Mate4";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		4CA415CF1C84F0DA0006C790 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "TZ First Mate4UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "SOCSD.TZ-First-Mate4UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "TZ First Mate4";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4CA415981C84F0D90006C790 /* Build configuration list for PBXProject "TZ First Mate4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA415C51C84F0DA0006C790 /* Debug */,
+				4CA415C61C84F0DA0006C790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CA415C71C84F0DA0006C790 /* Build configuration list for PBXNativeTarget "TZ First Mate4" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA415C81C84F0DA0006C790 /* Debug */,
+				4CA415C91C84F0DA0006C790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CA415CA1C84F0DA0006C790 /* Build configuration list for PBXNativeTarget "TZ First Mate4Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA415CB1C84F0DA0006C790 /* Debug */,
+				4CA415CC1C84F0DA0006C790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4CA415CD1C84F0DA0006C790 /* Build configuration list for PBXNativeTarget "TZ First Mate4UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4CA415CE1C84F0DA0006C790 /* Debug */,
+				4CA415CF1C84F0DA0006C790 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4CA415951C84F0D90006C790 /* Project object */;
+}
