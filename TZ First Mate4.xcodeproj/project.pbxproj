@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4A2CB7911D750DA400698DCF /* Base.lproj in Resources */ = {isa = PBXBuildFile; fileRef = 4A2CB7901D750DA400698DCF /* Base.lproj */; };
+		4A2CB7941D750DB000698DCF /* Main copy.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A2CB7921D750DB000698DCF /* Main copy.storyboard */; };
+		4A2CB7961D750EED00698DCF /* Faculty.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A2CB7951D750EED00698DCF /* Faculty.swift */; };
 		4A4626D31CF47F7B004A2B13 /* CalendarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A4626D21CF47F7B004A2B13 /* CalendarViewController.swift */; };
 		4AEB93C81D01338300EBF254 /* Calendar.html in Resources */ = {isa = PBXBuildFile; fileRef = 4AEB93C71D01338300EBF254 /* Calendar.html */; };
 		4AEB93CD1D01392C00EBF254 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4AEB93CB1D01392C00EBF254 /* Main.storyboard */; };
@@ -50,6 +53,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		4A2CB7901D750DA400698DCF /* Base.lproj */ = {isa = PBXFileReference; lastKnownFileType = folder; path = Base.lproj; sourceTree = "<group>"; };
+		4A2CB7931D750DB000698DCF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = "Base.lproj/Main copy.storyboard"; sourceTree = "<group>"; };
+		4A2CB7951D750EED00698DCF /* Faculty.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Faculty.swift; sourceTree = "<group>"; };
 		4A4626D21CF47F7B004A2B13 /* CalendarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalendarViewController.swift; sourceTree = "<group>"; };
 		4AEB93C71D01338300EBF254 /* Calendar.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = Calendar.html; sourceTree = "<group>"; };
 		4AEB93CC1D01392C00EBF254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -107,15 +113,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4AEB93C91D01388B00EBF254 /* Calendar */ = {
+		4A2CB7991D75260C00698DCF /* New */ = {
 			isa = PBXGroup;
 			children = (
-				4AEB93C71D01338300EBF254 /* Calendar.html */,
+				4A2CB7951D750EED00698DCF /* Faculty.swift */,
 			);
-			name = Calendar;
+			name = New;
 			sourceTree = "<group>";
 		};
-		4AF768621CDD8A51007AFB24 /* Faculty */ = {
+		4A2CB79A1D75261700698DCF /* Old */ = {
 			isa = PBXGroup;
 			children = (
 				4CFB56431CBCA27900361D39 /* ForeignLanguageViewController.swift */,
@@ -127,6 +133,23 @@
 				4C2EBDF11CC0795700E076FC /* ScienceViewController.swift */,
 				4C2EBDF31CC3320700E076FC /* TheArtsViewController.swift */,
 				4C2EBDF51CC3426200E076FC /* ComputerScienceViewController.swift */,
+			);
+			name = Old;
+			sourceTree = "<group>";
+		};
+		4AEB93C91D01388B00EBF254 /* Calendar */ = {
+			isa = PBXGroup;
+			children = (
+				4AEB93C71D01338300EBF254 /* Calendar.html */,
+			);
+			name = Calendar;
+			sourceTree = "<group>";
+		};
+		4AF768621CDD8A51007AFB24 /* Faculty */ = {
+			isa = PBXGroup;
+			children = (
+				4A2CB79A1D75261700698DCF /* Old */,
+				4A2CB7991D75260C00698DCF /* New */,
 			);
 			name = Faculty;
 			sourceTree = "<group>";
@@ -164,12 +187,14 @@
 		4CA4159F1C84F0D90006C790 /* TZ First Mate4 */ = {
 			isa = PBXGroup;
 			children = (
+				4A2CB7901D750DA400698DCF /* Base.lproj */,
 				C3F2F8DA1CEBC70400C8554C /* ViewControllers */,
 				4AEB93C91D01388B00EBF254 /* Calendar */,
 				4AF768631CDD8A8F007AFB24 /* Scedule */,
 				4AF768621CDD8A51007AFB24 /* Faculty */,
 				4CA415A01C84F0D90006C790 /* AppDelegate.swift */,
 				4AEB93CB1D01392C00EBF254 /* Main.storyboard */,
+				4A2CB7921D750DB000698DCF /* Main copy.storyboard */,
 				4CA415A91C84F0D90006C790 /* Assets.xcassets */,
 				4CA415AB1C84F0D90006C790 /* LaunchScreen.storyboard */,
 				4CA415AE1C84F0D90006C790 /* Info.plist */,
@@ -312,7 +337,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				4CA415AD1C84F0D90006C790 /* LaunchScreen.storyboard in Resources */,
+				4A2CB7941D750DB000698DCF /* Main copy.storyboard in Resources */,
 				4AEB93CD1D01392C00EBF254 /* Main.storyboard in Resources */,
+				4A2CB7911D750DA400698DCF /* Base.lproj in Resources */,
 				4CA415AA1C84F0D90006C790 /* Assets.xcassets in Resources */,
 				4AEB93C81D01338300EBF254 /* Calendar.html in Resources */,
 			);
@@ -350,6 +377,7 @@
 				4C2EBDF61CC3426200E076FC /* ComputerScienceViewController.swift in Sources */,
 				4CA415A31C84F0D90006C790 /* HomeViewController.swift in Sources */,
 				4CE807C01C979D2D007997CD /* EnglishViewController.swift in Sources */,
+				4A2CB7961D750EED00698DCF /* Faculty.swift in Sources */,
 				4C2EBDF21CC0795700E076FC /* ScienceViewController.swift in Sources */,
 				4AF768611CDD88C3007AFB24 /* Scedule.swift in Sources */,
 				4C2EBDF41CC3320700E076FC /* TheArtsViewController.swift in Sources */,
@@ -390,6 +418,14 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		4A2CB7921D750DB000698DCF /* Main copy.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4A2CB7931D750DB000698DCF /* Base */,
+			);
+			name = "Main copy.storyboard";
+			sourceTree = "<group>";
+		};
 		4AEB93CB1D01392C00EBF254 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
