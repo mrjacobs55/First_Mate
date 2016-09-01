@@ -299,7 +299,7 @@
 				TargetAttributes = {
 					4CA4159C1C84F0D90006C790 = {
 						CreatedOnToolsVersion = 7.2.1;
-						DevelopmentTeam = V8ZM283FSK;
+						DevelopmentTeam = BTHJJWCRVM;
 					};
 					4CA415B21C84F0D90006C790 = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -534,7 +534,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "TZ First Mate4/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.socsd.FirstMate.jake;
+				PRODUCT_BUNDLE_IDENTIFIER = org.socsd.FirstMate.mitchell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
@@ -548,7 +548,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "TZ First Mate4/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = org.socsd.FirstMate.jake;
+				PRODUCT_BUNDLE_IDENTIFIER = org.socsd.FirstMate.mitchell;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
 			};
