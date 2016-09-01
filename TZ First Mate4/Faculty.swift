@@ -80,6 +80,16 @@ class Faculty : UIViewController, UIPickerViewDelegate, UIPickerViewDataSource, 
         
         return teachers[pickSub.selectedRowInComponent(0)][row];
     }
+    func pickerView(pickerView: UIPickerView, attributedTitleForRow row: Int, forComponent component: Int) -> NSAttributedString? {
+        if(pickerView == pickSub){
+            let attributedString = NSAttributedString(string: subjects[row], attributes: [NSForegroundColorAttributeName : UIColor.whiteColor()])
+            return attributedString
+        }
+        let attributedString = NSAttributedString(string: teachers[pickSub.selectedRowInComponent(0)][row], attributes: [NSForegroundColorAttributeName : UIColor.whiteColor()])
+        return attributedString
+
+        
+    }
     
     func pickerView(pickerView: UIPickerView, didSelectRow row: Int, inComponent component: Int){
         if(pickerView == pickSub){
